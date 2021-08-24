@@ -15,6 +15,11 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ogu"/>
+
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
