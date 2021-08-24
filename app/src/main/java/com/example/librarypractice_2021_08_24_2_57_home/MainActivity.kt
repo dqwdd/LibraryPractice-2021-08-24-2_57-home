@@ -22,7 +22,7 @@ class MainActivity : BaseActivity() {
         profileImg.setOnClickListener {
 
 //            프로필 사진 클릭 이벤트 => 사진 크게 보는 화면으로 이동시키기
-            val Intent myIntent = Intent(mContext, View)
+            val Intent myIntent = Intent(mContext, ViewPhotoActivity::class)
             startActivity(myIntent)
 //            매니페스트가서 노 액션바로 더 프로필보는것처럼 보이게
 
