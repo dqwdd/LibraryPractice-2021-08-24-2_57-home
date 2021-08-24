@@ -16,14 +16,11 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ogu"/>
-
-        <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ogu"/>
+            android:src="@drawable/ogu"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ff0000"/>
 
         <TextView
             android:layout_width="wrap_content"
